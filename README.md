@@ -17,41 +17,34 @@
 
 ## 🚀 Overview
 
-Emotion Detection AI is a Deep Learning based Computer Vision project capable of detecting human emotions from facial images.
+Emotion Detection AI is a Deep Learning and Computer Vision project that detects human emotions from facial images.
 
-The system uses a Convolutional Neural Network (CNN) trained on the FER2013 dataset and provides an interactive Streamlit interface for real-time emotion analysis.
+The system uses a CNN (Convolutional Neural Network) trained on the FER2013 dataset and provides an interactive Streamlit web application for emotion analysis.
 
 ### ✨ Features
 
-* 📸 Upload Image Detection
-* 📷 Camera Capture Detection
+* 📸 Image Upload Emotion Detection
+* 📷 Camera Capture Emotion Detection
 * 😀 Facial Emotion Recognition
 * 🎯 Confidence Score Prediction
 * 📊 Emotion Ranking Visualization
-* 🧠 Deep Learning Powered
-* ⚡ Fast Streamlit Interface
+* 🧠 CNN-based Deep Learning Model
+* ⚡ Interactive Streamlit UI
 * 👤 Automatic Face Detection
 
 ---
 
 ## 📸 Project Screenshots
 
-### Home Page
+### 🏠 Home Page
 
-> Add your screenshot here
+![Home Page](screenshot/image.png)
 
-```markdown
-![Home](screenshot/image.png)
-![Home](screenshot/image1.png)
-```
+---
 
-### Prediction Result
+### 🎯 Emotion Detection Result
 
-> Add your screenshot here
-
-```markdown
-![Prediction](screenshot/image1.png)
-```
+![Prediction Result](screenshot/image1.png)
 
 ---
 
@@ -75,23 +68,23 @@ The system uses a Convolutional Neural Network (CNN) trained on the FER2013 data
 FACE-DETECTION
 │
 ├── app/
-│   └── Core detection scripts
+│   └── Core Detection Scripts
 │
 ├── UI/
 │   └── Streamlit Web Application
 │
 ├── model/
-│   ├── emotion_model.h5
-│   └── trained model files
+│   └── emotion_model.h5
 │
 ├── notebook/
-│   └── Training notebook
+│   └── Training Notebook
 │
 ├── ComputerVision_Cascade/
 │   └── Haar Cascade XML
 │
 ├── screenshot/
-│   └── Project screenshots
+│   ├── image.png
+│   └── image1.png
 │
 ├── README.md
 ├── requirements.txt
@@ -157,15 +150,13 @@ Output → Emotion Prediction
 
 ## 📂 Dataset
 
-This project uses the FER2013 (Facial Emotion Recognition) Dataset.
+This project uses the FER2013 Facial Emotion Recognition Dataset.
 
 Download Dataset:
 
 https://www.kaggle.com/datasets/msambare/fer2013
 
 Dataset is not included in this repository.
-
-After downloading:
 
 ```text
 data/
@@ -193,13 +184,13 @@ python -m venv env
 
 ### Activate Environment
 
-Windows
+Windows:
 
 ```bash
 env\Scripts\activate
 ```
 
-Linux / Mac
+Linux / Mac:
 
 ```bash
 source env/bin/activate
@@ -229,13 +220,13 @@ http://localhost:8501
 
 ## 🎯 How It Works
 
-1. Upload an image or capture from camera
-2. OpenCV detects faces
-3. Face is converted to grayscale
-4. Image resized to 48x48
-5. CNN model predicts emotion
-6. Emotion label and confidence score displayed
-7. Results visualized in Streamlit UI
+1. Upload an image or capture a photo using the camera.
+2. OpenCV detects faces in the image.
+3. Face region is converted to grayscale.
+4. Image is resized to 48×48 pixels.
+5. CNN model predicts the emotion.
+6. Emotion label and confidence score are displayed.
+7. Results are visualized through the Streamlit UI.
 
 ---
 
@@ -263,7 +254,7 @@ Disgust     0.1%
 * 📊 Emotion Analytics Dashboard
 * 📈 Emotion Trends Visualization
 * ☁️ Cloud Deployment
-* 📱 Mobile Responsive Interface
+* 📱 Mobile-Friendly Interface
 * 🤖 Multiple Face Tracking
 
 ---
@@ -277,8 +268,8 @@ Passionate about:
 * Artificial Intelligence
 * Deep Learning
 * Computer Vision
-* Generative AI
 * Machine Learning
+* Generative AI
 
 ---
 
@@ -286,9 +277,9 @@ Passionate about:
 
 If you found this project useful:
 
-⭐ Star this repository
+⭐ Star the repository
 
-🍴 Fork this project
+🍴 Fork the project
 
 📢 Share your feedback
 
@@ -298,6 +289,6 @@ If you found this project useful:
 
 ### 🚀 Teaching Machines to Understand Human Emotions
 
-Made with ❤️ using Deep Learning
+Made with ❤️ using Deep Learning, OpenCV & TensorFlow
 
 </div>
